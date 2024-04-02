@@ -1,7 +1,5 @@
 const API_URL = 'http://laravel4/api-file'
 
-// Api fetch Data
-
 const f =  async (method, url, data= null, blob= null) => {
     let formData = null
 
