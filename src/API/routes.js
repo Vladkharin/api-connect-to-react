@@ -22,6 +22,8 @@ const f =  async (method, url, data= null, blob= null) => {
         }
     }
 
+    // Vlad
+
     if ( method === 'PATCH' || method === 'DELETE'){
         options.body = JSON.stringify(data)
         options.headers['Content-type'] = 'application/json'
